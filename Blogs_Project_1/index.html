@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Blogs</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Blogs</h1>
+      <div>
+        <button id="create-blog"><i class="fa-solid fa-plus"></i></button>
+      </div>
+    </nav>
+    <main>
+      <section class="blogs">
+        <div class="blog"></div>
+      </section>
+
+      <div class="modal-container">
+        <div class="modal">
+          <span><i class="fa-solid fa-xmark"></i></span>
+          <form id="add-blog">
+            <div class="input">
+              <input
+                type="text"
+                placeholder="Enter Blog Post Url :"
+                name="url"
+                id="url"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                placeholder="Enter Blog Title :"
+                name="title"
+                id="title"
+                required
+              />
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                placeholder="Enter Blog description :"
+                name="description"
+                id="description"
+                required
+              />
+            </div>
+            <div class="textarea">
+              <textarea
+                required
+                placeholder="Write"
+                name="post"
+                id="post"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button id="sub_btn" type="submit">Add Blog</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d31ba0e2b3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
