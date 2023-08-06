@@ -1,3 +1,4 @@
-# Display of movie details, including movie title, poster image.
+# Movie search list web app
+- Display of movie details, including movie title, poster image.
 
-# Real-time fetching of movie data from the OMDB API.
+- Real-time fetching of movie data from the OMDB API.
